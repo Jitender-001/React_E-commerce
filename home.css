@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.home{
+    width: 100%;
+}
+
+.home .top-banner{
+    max-width: 100%;
+    height: 395px;
+    background: url("http://localhost:3000/images/bg-image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
