@@ -5,6 +5,12 @@ import HomeProducts from './home_products';
 import { useState } from 'react';
 import { FaEye } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaSnapchat } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa6";
+
 
 function Home() {
 
@@ -89,10 +95,84 @@ function Home() {
                                         })
                                     }
                                 </div>
+                                <button className='more-btn'>Show More</button>
                             </div>
                         </div>
                         <div className="right-box">
+                                    <div className="container">
+                                        <div className="testimonial">
+                                            <div className="head">
+                                                <h3>
+                                                    Our Testimonials
+                                                </h3>
+                                            </div>
+                                            <div className="details">
+                                                <div className="img-box">
+                                                    <img src="images/T1.jpg" alt="Testimonial-image" />
+                                                </div>
 
+                                                <div className="info">
+                                                    <h3>Madison Goodwill</h3>
+                                                    <h4>Web Developer</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="newsletter">
+                                            <div className="head">
+                                                <h3>Newsletter</h3>
+                                            </div>
+                                            
+                                            <div className="form">
+                                                <p>Connect to with us</p>
+                                                <input type="email" placeholder='abc@gmail.com' autoComplete='off' />
+                                                <button>Subscribe</button>
+                                                <div className="icon-box">
+                                                    <div className="icon">
+                                                        <FaFacebook />
+                                                    </div>
+                                                    <div className="icon">
+                                                        <FaInstagram />
+                                                    </div>
+                                                    <div className="icon">
+                                                        <FaXTwitter />
+                                                    </div>
+                                                    <div className="icon">
+                                                        <FaSnapchat />
+                                                    </div>
+                                                    <div className='icon'>
+                                                        <FaYoutube />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="banners">
+                    <div className="container">
+                        <div className="left-box">
+                            <div className="box">
+                                <img src="images/b1.jpg" alt="banner" />
+                            </div>
+                            <div className="box">
+                                <img src="images/b2.jpg" alt="banner" />
+                            </div>
+                            <div className="box box-6">
+                                <img src="images/b6.jpg" alt="banner" />
+                            </div>
+                        </div>
+                        <div className="right-box">
+                            <div className="top">
+                                <img src="images/b3.jpg" alt="werew" />
+                                <img src="images/b4.jpg" alt="edf" />
+                            </div>
+
+                            <div className="bottom">
+                                <img src="images/b5.jpg" alt="banner" />
+                            </div>
                         </div>
                     </div>
                 </div>
